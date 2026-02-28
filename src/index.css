@@ -6,12 +6,19 @@
   }
   a,
   button {
-    @apply transition duration-300;
+    @apply transition duration-300 cursor-pointer;
   }
 }
 
 @layer utilities {
   .padding {
     @apply p-5 md:p-10 lg:px-15 xl:px-20;
+  }
+}
+
+@layer components {
+  .hero-btn {
+    @apply py-2 px-6 bg-linear-to-br from-red-600
+     to-red-700 rounded-lg transition duration-300 hover:scale-105 hover:shadow-xl hover:brightness-90 cursor-pointer min-w-41.25 flex items-center justify-center gap-2 font-medium;
   }
 }
