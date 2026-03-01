@@ -46,3 +46,11 @@
 - Splide.js: Yüksek performanslı slider/carousel bileşenleri.
 
 - Millify: Büyük sayıları (bütçe, hasılat) okunabilir formatlara dönüştürme (örn: 1.2M$).
+
+# Ekran Görüntüsü
+
+![](./public/screen.jpg)
+
+# GIFs
+
+![](./public/film_clone.gif)
